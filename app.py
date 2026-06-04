@@ -1,7 +1,7 @@
 import streamlit as st
 import joblib
 import pandas as pd
-model = joblib.load('Bank churn prediction/model.pkl')
+model = joblib.load('model.pkl')
 
 st.markdown(
     "<h1 style='text-align: center; color: #2E86AB;'>Bank Churn Predictor</h1>",
